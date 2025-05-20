@@ -29,8 +29,8 @@ from utils.video_loader import VideoDataset, VideoDatasetInfer
 
 parser = argparse.ArgumentParser(description='Train video model')
 # Datasets
-parser.add_argument('--root', type=str, default='/home/guxinqian/data/')#数据集的位置
-parser.add_argument('-d', '--dataset', type=str, default='lsvid',#数据集名称
+parser.add_argument('--root', type=str, default='/home/guxinqian/data/')
+parser.add_argument('-d', '--dataset', type=str, default='lsvid',
                     choices=data_manager.get_names())
 parser.add_argument('-j', '--workers', default=8, type=int,
                     help="number of data loading workers (default: 4)")
@@ -50,7 +50,7 @@ parser.add_argument('--start_epoch', default=0, type=int,
 parser.add_argument('--train_batch', default=32, type=int,
                     help="train batch size")
 parser.add_argument('--test_batch', default=32, type=int, help="has to be 1")
-parser.add_argument('--lr', '--learning-rate', default=0.0003, type=float,#原来为0.0003
+parser.add_argument('--lr', '--learning-rate', default=0.0003, type=float,
                     help="initial learning rate, use 0.0001 for rnn, use 0.0003 for pooling and attention")
 parser.add_argument('--stepsize', default=[40,80,120,160], nargs='+', type=int,
                     help="stepsize to decay learning rate")
