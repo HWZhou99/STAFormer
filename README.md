@@ -10,7 +10,6 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
 </p>
 
 ## Get started
-
 ```
 #Train
 python main.py \
@@ -36,4 +35,4 @@ python main.py \
 | ------- | ---- | ------ |
 | mAP     | 89.1 | 85.6   |
 | Rank-1  | 91.5 | 90.9   |
-| model   |      |        |
+
