@@ -9,10 +9,6 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
   <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.jpg" alt="">
 </p>
 
-```
-
-```
-
 ## Get started
 
 ```
@@ -36,8 +32,8 @@ python main.py \
 
 ## Result
 
-| Dataset | MARS | LS-VID |      |
-| ------- | ---- | ------ | ---- |
-| mAP     | 89.1 | 85.6   |      |
-| Rank-1  | 91.5 | 90.9   |      |
-| model   |      |        |      |
+| Dataset | MARS | LS-VID |     
+| ------- | ---- | ------ |
+| mAP     | 89.1 | 85.6   |
+| Rank-1  | 91.5 | 90.9   |
+| model   |      |        |
