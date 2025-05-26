@@ -8,11 +8,36 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
 <p align="center">
   <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.jpg" alt="">
 </p>
-## Train and Test
-'''
-For MARS
-Train
-python main.py   --root /home/cv-mot/DLF/DataSet/MARS-v160809  --dataset mars --arch make_model --gpu 0,1 --save_dir log_STAFormer
-Test
-python main.py --arch make_model --dataset mars --root /home/cv-mot/DLF/DataSet/MARS-v160809 --gpu_devices 0,1 --save_dir /log_STAFormerp --evaluate --all_frames --resume /log_STAFormer/checkpoint_ep200.pth.tar
-'''
+
+```
+
+```
+
+## Get started
+
+```
+#Train
+python main.py \
+   --arch make_model\
+   --dataset ${mars, lsvid, ...} \
+   --root ${path of dataset} \
+   --gpu_devices 0,1 \
+   --save_dir ${path for saving modles and logs}
+
+#Test with all frames
+  python main.py \
+   --arch make_model \
+   --dataset mars \
+   --root ${path of dataset} \
+   --gpu_devices 0,1 \
+   --save_dir ${path for saving logs} \
+   --evaluate --all_frames --resume ${path of pretrained model}
+```
+
+## Result
+
+| Dataset | MARS | LS-VID |      |
+| ------- | ---- | ------ | ---- |
+| mAP     | 89.1 | 85.6   |      |
+| Rank-1  | 91.5 | 90.9   |      |
+| model   |      |        |      |
