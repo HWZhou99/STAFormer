@@ -6,7 +6,7 @@ Temporal cues are crucial to the video-based person re-identification (ReID). Ho
 with an attention mechanism. Similarly, the temporal aggregation module also leverages the attention mechanism to aggregate these frame-level features into the video-level representations. Extensive experiments on four widely used benchmark datasets demonstrate that the proposed STAFormer is effective for video-based person ReID with the ability to jointly frame-level feature extraction and temporal cues aggregation.
 
 <p align="center">
-  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.jpg" alt="STAFormer",width="500">
+  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.jpg" alt="STAFormer",width="300">
 </p>
 
 ## Get started
