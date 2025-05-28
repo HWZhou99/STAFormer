@@ -9,6 +9,10 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
   <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.jpg" alt="STAFormer",width="300">
 </p>
 
+## Datasets
+Dataset preparation instructions can be found in the repository [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID)
+
+
 ## Get started
 ```
 #Train
