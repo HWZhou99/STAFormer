@@ -41,4 +41,4 @@ python main.py \
 | Rank-1  | 91.5 | 90.9   |
 
 ## Acknowledgments
-This code is based on the implementations of [SINet]([https://github.com/jiyanggao/Video-Person-ReID])
+This code is based on the implementations of [SINet](https://github.com/baist/SINet)
