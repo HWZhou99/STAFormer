@@ -40,3 +40,5 @@ python main.py \
 | mAP     | 89.1 | 85.6   |
 | Rank-1  | 91.5 | 90.9   |
 
+## Acknowledgments
+This code is based on the implementations of [SINet]([https://github.com/jiyanggao/Video-Person-ReID])
