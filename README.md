@@ -41,7 +41,7 @@ Please download and extract these datasets into the `data/` directory located at
   
 
 ## Get started
-To train the model, please run
+To train the model, please run：
 ```
 python main.py \
    --arch make_model\
@@ -52,7 +52,7 @@ python main.py \
 ```
 Replace ```--root ${path of dataset}``` and ```--save_dir ${path for saving modles and logs}``` with your actual paths.
 
-To test the model, please run
+To test the model, please run：
 ```
 #Test with all frames
   python main.py \
