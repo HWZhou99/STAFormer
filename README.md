@@ -10,7 +10,7 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
 </p>
 
 ## Datasets
-All experiments are done on MARS, as it is the largest dataset available to date for video-based person reID. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
+All experiments in this project are conducted on the MARS dataset, which remains the largest benchmark for video-based person re-identification to date. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
 1. Create a directory named ```mars/``` under ```data/```.
 2. Download the MARS dataset from the following link and place it into the ```data/mars/``` directory: [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html).
 3. Extract ```bbox_train.zip``` and ```bbox_test.zip``` into ```data/mars/```.
@@ -33,7 +33,7 @@ Other related datasets used in this project can be downloaded from the following
 
 Please download and extract the files into the ```data/``` directory located at the root of the project (or adjust the path as needed).
 
-Note: LS-VID datasets require access permission or prior registration. Please refer to the official website of each dataset for detailed instructions. 
+  **Note**: LS-VID datasets require access permission. Please refer to the official website of dataset for detailed instructions. 
 
   
 
