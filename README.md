@@ -26,7 +26,7 @@ mars/
      bbox_train/
      info/
 ```
-5. Use the parameter ```--dataset mars``` when training.. 
+5. Use the parameter ```--dataset mars``` when training.
 
 Other Video Person Re-ID datasets used in this project can be downloaded from the following links:
 
