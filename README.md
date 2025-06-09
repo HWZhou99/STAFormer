@@ -9,22 +9,24 @@ Temporal cues are crucial for video-based person re-identification (ReID). Howev
 </p>
 
 ## Requirements
-You can install all required Python packages via:
+Install all required dependencies with:
 ```
 pip install -r requirements.txt
 ```
+Python 3.7+ and PyTorch ≥1.8.0 are recommended.
 
 ## Datasets
-All experiments in this project are conducted on the MARS dataset, which remains the largest benchmark for video-based person re-identification to date. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
+All experiments in this project are conducted on the MARS dataset, which remains the largest benchmark for video-based person Re-ID to data. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
 1. Create a directory named ```mars/``` under ```data/```.
 2. Download the MARS dataset from the following link and place it into the ```data/mars/``` directory: [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html).
 3. Extract ```bbox_train.zip``` and ```bbox_test.zip``` into ```data/mars/```.
-4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info/``` in ```data/mars```. After completing the above steps, the directory structure should look like this:
+4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info/``` in ```data/mars```. Your folder structure should look like this:
 ```
-mars/
-     bbox_test/
-     bbox_train/
-     info/
+data/
+└── mars/
+    ├── bbox_train/
+    ├── bbox_test/
+    └── info/
 ```
 5. Use the parameter ```--dataset mars``` when training.
 
@@ -34,7 +36,7 @@ Other Video Person Re-ID datasets used in this project can be downloaded from th
 - [DukeMTMC-VideoReID](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Exploit_the_Unknown_CVPR_2018_paper.pdf)
 - [LS-VID](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Global-Local_Temporal_Representations_for_Video_Person_Re-Identification_ICCV_2019_paper.pdf)
 
-Please download and extract these datasets into the `data/` directory located at the root of the project.
+Please download and extract these datasets into the ```data/``` directory at the root of the project.
 
 > **Note:** The LS-VID dataset requires access permission. Please refer to the official website of the dataset for detailed instructions.
 
@@ -67,8 +69,8 @@ To test the model, please run:
 
 | Dataset | mAP  | Rank-1 | model | 
 | ------- | ---- | ------ | ------|
-| MARS    | 89.1 |  91.5  |[STAFormer](https://drive.google.com/file/d/1D274cxIb3sUMGYAwtGSQ8-3-BlJ13cku/view?usp=sharing)|
-| LS-VID  | 85.6 |  90.9  |[STAFormer]()|
+| MARS    | 89.1 |  91.5  |[mars](https://drive.google.com/file/d/1D274cxIb3sUMGYAwtGSQ8-3-BlJ13cku/view?usp=sharing)|
+| LS-VID  | 85.6 |  90.9  |[ls-vid](https://drive.google.com/file/d/1JMEQ5fuTbsiKnkRLAtIIMK8b7inMR0uN/view?usp=drive_link)|
 
 ## Acknowledgments
 This code is based on the implementations of [SINet](https://github.com/baist/SINet)
