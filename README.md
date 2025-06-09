@@ -12,18 +12,27 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
 ## Datasets
 All experiments are done on MARS, as it is the largest dataset available to date for video-based person reID. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
 1. Create a directory named ```mars/``` under ```data/```.
-2. Download dataset to ```data/mars/``` from [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html).
-3. Extract ```bbox_train.zip``` and ```bbox_test.zip```.
-4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info\``` in ```data/mars```. The data structure would look like:
+2. Download the MARS dataset from the following link and place it into the ```data/mars/``` directory: [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html).
+3. Extract ```bbox_train.zip``` and ```bbox_test.zip``` into ```data/mars/```.
+4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info\``` in ```data/mars```. After completing the above steps, the directory structure should look like this:
 ```
 mars/
      bbox_test/
      bbox_train/
      info/
 ```
+5. Use ```dataset mars``` when running the training code. 
 
-5. Use ```data mars``` when running the training code. 
+Other related datasets used in this project can be downloaded from the following links:
+· [iLIDS-VID](https://www.eecs.qmul.ac.uk/~sgg/papers/WangEtAl_ECCV14.pdf)
+· [DukeMTMC-VideoReID](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Exploit_the_Unknown_CVPR_2018_paper.pdf)
+· [LS-VID](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Global-Local_Temporal_Representations_for_Video_Person_Re-Identification_ICCV_2019_paper.pdf)
 
+Please download and extract the files into the ```data/``` directory located at the root of the project (or adjust the path as needed).
+
+Note: LS-VID datasets require access permission or prior registration. Please refer to the official website of each dataset for detailed instructions. 
+
+  
 
 ## Get started
 ```
