@@ -42,15 +42,19 @@ Please download and extract these datasets into the `data/` directory located at
   
 
 ## Get started
+To train the model, please run
 ```
-#Train
 python main.py \
    --arch make_model\
    --dataset ${mars, lsvid, ...} \
    --root ${path of dataset} \
    --gpu_devices 0,1 \
    --save_dir ${path for saving modles and logs}
+```
+Replace ```${path of dataset}``` and ```${path for saving modles and logs}``` with your actual paths.
 
+To test the model, please run
+```
 #Test with all frames
   python main.py \
    --arch make_model \
@@ -60,7 +64,6 @@ python main.py \
    --save_dir ${path for saving logs} \
    --evaluate --all_frames --resume ${path of pretrained model}
 ```
-
 ## Result
 
 | Dataset | MARS | LS-VID |     
