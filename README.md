@@ -10,7 +10,19 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
 </p>
 
 ## Datasets
-Dataset preparation instructions can be found in the repository [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID)
+All experiments are done on MARS, as it is the largest dataset available to date for video-based person reID. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
+1. Create a directory named ```mars/``` under ```data/```.
+2. Download dataset to ```data/mars/``` from [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html).
+3. Extract ```bbox_train.zip``` and ```bbox_test.zip```.
+4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info\``` in ```data/mars```. The data structure would look like:
+```
+mars/
+     bbox_test/
+     bbox_train/
+     info/
+```
+
+5. Use ```data mars``` when running the training code. 
 
 
 ## Get started
