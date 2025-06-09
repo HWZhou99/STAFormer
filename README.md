@@ -23,7 +23,7 @@ mars/
 ```
 5. Use ```dataset mars``` when running the training code. 
 
-Other related datasets used in this project can be downloaded from the following links:
+Other Video-perosn-ReID datasets used in this project can be downloaded from the following links:
 
 · [iLIDS-VID](https://www.eecs.qmul.ac.uk/~sgg/papers/WangEtAl_ECCV14.pdf)
 
