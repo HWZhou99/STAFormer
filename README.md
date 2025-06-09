@@ -24,8 +24,11 @@ mars/
 5. Use ```dataset mars``` when running the training code. 
 
 Other related datasets used in this project can be downloaded from the following links:
+
 · [iLIDS-VID](https://www.eecs.qmul.ac.uk/~sgg/papers/WangEtAl_ECCV14.pdf)
+
 · [DukeMTMC-VideoReID](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Exploit_the_Unknown_CVPR_2018_paper.pdf)
+
 · [LS-VID](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Global-Local_Temporal_Representations_for_Video_Person_Re-Identification_ICCV_2019_paper.pdf)
 
 Please download and extract the files into the ```data/``` directory located at the root of the project (or adjust the path as needed).
