@@ -23,17 +23,17 @@ mars/
 ```
 5. Use ```dataset mars``` when running the training code. 
 
-Other Video-perosn-ReID datasets used in this project can be downloaded from the following links:
+### Additional Video Person Re-ID Datasets
 
-  **·** [iLIDS-VID](https://www.eecs.qmul.ac.uk/~sgg/papers/WangEtAl_ECCV14.pdf)
+Other Video Person Re-ID datasets used in this project can be downloaded from the following links:
 
-  **·** [DukeMTMC-VideoReID](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Exploit_the_Unknown_CVPR_2018_paper.pdf)
+- [iLIDS-VID](https://www.eecs.qmul.ac.uk/~sgg/papers/WangEtAl_ECCV14.pdf)
+- [DukeMTMC-VideoReID](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Exploit_the_Unknown_CVPR_2018_paper.pdf)
+- [LS-VID](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Global-Local_Temporal_Representations_for_Video_Person_Re-Identification_ICCV_2019_paper.pdf)
 
-  **·** [LS-VID](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Global-Local_Temporal_Representations_for_Video_Person_Re-Identification_ICCV_2019_paper.pdf)
+Please download and extract these datasets into the `data/` directory located at the root of the project (or adjust the path as needed).
 
-Please download and extract the files into the ```data/``` directory located at the root of the project (or adjust the path as needed).
-
-  **Note**: LS-VID datasets require access permission. Please refer to the official website of dataset for detailed instructions. 
+> **Note:** The LS-VID dataset requires access permission. Please refer to the official website of the dataset for detailed instructions.
 
   
 
