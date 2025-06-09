@@ -19,7 +19,7 @@ All experiments in this project are conducted on the MARS dataset, which remains
 1. Create a directory named ```mars/``` under ```data/```.
 2. Download the MARS dataset from the following link and place it into the ```data/mars/``` directory: [http://www.liangzheng.com.cn/Project/project_mars.html](http://www.liangzheng.com.cn/Project/project_mars.html).
 3. Extract ```bbox_train.zip``` and ```bbox_test.zip``` into ```data/mars/```.
-4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info\``` in ```data/mars```. After completing the above steps, the directory structure should look like this:
+4. Download split information from [https://github.com/liangzheng06/MARS-evaluation/tree/master/info](https://github.com/liangzheng06/MARS-evaluation/tree/master/info) and put ```info/``` in ```data/mars```. After completing the above steps, the directory structure should look like this:
 ```
 mars/
      bbox_test/
