@@ -73,4 +73,4 @@ To test the model, please run:
 | LS-VID  | 85.6 |  90.9  |[ls-vid](https://drive.google.com/file/d/1JMEQ5fuTbsiKnkRLAtIIMK8b7inMR0uN/view?usp=drive_link)|
 
 ## Acknowledgments
-This code is based on the implementations of [SINet](https://github.com/baist/SINet)
+Thanks for [SINet](https://github.com/baist/SINet) of Shutao Bai providing video reid code base.
