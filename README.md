@@ -51,7 +51,7 @@ python main.py \
    --gpu_devices 0,1 \
    --save_dir ${path for saving modles and logs}
 ```
-Replace ```${path of dataset}``` and ```${path for saving modles and logs}``` with your actual paths.
+Replace ```--root ${path of dataset}``` and ```--save_dir ${path for saving modles and logs}``` with your actual paths.
 
 To test the model, please run
 ```
