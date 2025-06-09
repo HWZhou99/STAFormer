@@ -9,6 +9,12 @@ with an attention mechanism. Similarly, the temporal aggregation module also lev
   <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.jpg" alt="STAFormer",width="300">
 </p>
 
+## Requirements
+You can install all required Python packages via:
+```
+pip install -r requirements.txt
+```
+
 ## Datasets
 All experiments in this project are conducted on the MARS dataset, which remains the largest benchmark for video-based person re-identification to date. Please follow [Video-Person-ReID](https://github.com/jiyanggao/Video-Person-ReID) to prepare the data. The instructions are copied here:
 1. Create a directory named ```mars/``` under ```data/```.
