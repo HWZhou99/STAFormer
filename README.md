@@ -34,7 +34,7 @@ Other Video Person Re-ID datasets used in this project can be downloaded from th
 - [DukeMTMC-VideoReID](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Exploit_the_Unknown_CVPR_2018_paper.pdf)
 - [LS-VID](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Global-Local_Temporal_Representations_for_Video_Person_Re-Identification_ICCV_2019_paper.pdf)
 
-Please download and extract these datasets into the `data/` directory located at the root of the project (or adjust the path as needed).
+Please download and extract these datasets into the `data/` directory located at the root of the project.
 
 > **Note:** The LS-VID dataset requires access permission. Please refer to the official website of the dataset for detailed instructions.
 
