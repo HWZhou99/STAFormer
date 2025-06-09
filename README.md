@@ -65,10 +65,10 @@ To test the model, please run:
 ```
 ## Result
 
-| Dataset | MARS | LS-VID |     
-| ------- | ---- | ------ |
-| mAP     | 89.1 | 85.6   |
-| Rank-1  | 91.5 | 90.9   |
+| Dataset | mAP  | Rank-1 | model | 
+| ------- | ---- | ------ | ------|
+| MARS    | 89.1 |  91.5  |[STAFormer](https://drive.google.com/file/d/1D274cxIb3sUMGYAwtGSQ8-3-BlJ13cku/view?usp=sharing)|
+| LS-VID  | 85.6 |  90.9  |[STAFormer]()|
 
 ## Acknowledgments
 This code is based on the implementations of [SINet](https://github.com/baist/SINet)
