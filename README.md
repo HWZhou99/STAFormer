@@ -27,7 +27,7 @@ mars/
      bbox_train/
      info/
 ```
-5. Use ```dataset mars``` when running the training code. 
+5. Use the parameter ```--dataset mars``` when training.. 
 
 ### Additional Video Person Re-ID Datasets
 
