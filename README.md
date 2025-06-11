@@ -67,7 +67,9 @@ To test the model, please run:
 ```
 
 ## Visualization
-
+<p align="center">
+  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/Retrieve_Visualization.png" alt="STAFormer Visualization",width="300">
+</p>
 
 ## Result
 
