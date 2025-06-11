@@ -77,7 +77,7 @@ To test the model, please run:
 Visualization of the retrieval results on the MARS dataset. Each example shows the top-5 retrieved video
 sequences by the proposed STAFormer. The green and red indexes denote the correct and incorrect retrieval results, respectively.
 <p align="center">
-  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/Retrieve_Visualization.png" alt="STAFormer Visualization",width="300">
+  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/Retrieve_Visualization.png" alt="STAFormer Visualization",width="600">
 </p>
 
 ## Acknowledgments
