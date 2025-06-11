@@ -65,18 +65,19 @@ To test the model, please run:
    --save_dir ${path for saving logs} \
    --evaluate --all_frames --resume ${path of pretrained model}
 ```
-
-## Visualization
-<p align="center">
-  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/Retrieve_Visualization.png" alt="STAFormer Visualization",width="300">
-</p>
-
 ## Result
 
 | Dataset | mAP  | Rank-1 | model | 
 | ------- | ---- | ------ | ------|
 | MARS    | 89.1 |  91.5  |[mars](https://drive.google.com/file/d/1D274cxIb3sUMGYAwtGSQ8-3-BlJ13cku/view?usp=sharing)|
 | LS-VID  | 85.6 |  90.9  |[ls-vid](https://drive.google.com/file/d/1JMEQ5fuTbsiKnkRLAtIIMK8b7inMR0uN/view?usp=drive_link)|
+
+
+## Visualization
+
+<p align="center">
+  <img src ="https://github.com/HWZhou99/STAFormer/blob/main/Retrieve_Visualization.png" alt="STAFormer Visualization",width="300">
+</p>
 
 ## Acknowledgments
 Thanks for [SINet](https://github.com/baist/SINet) of Shutao Bai providing video reid code base.
