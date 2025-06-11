@@ -74,7 +74,7 @@ To test the model, please run:
 
 
 ## Visualization
-
+Retrieval result visualization on the MARS dataset. For each query, the top-5 video sequences retrieved by STAFormer are shown. A green border indicates a correct match, while a red border denotes an incorrect retrieval.
 <p align="center">
   <img src ="https://github.com/HWZhou99/STAFormer/blob/main/Retrieve_Visualization.png" alt="STAFormer Visualization",width="300">
 </p>
