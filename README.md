@@ -65,6 +65,10 @@ To test the model, please run:
    --save_dir ${path for saving logs} \
    --evaluate --all_frames --resume ${path of pretrained model}
 ```
+
+## Visualization
+
+
 ## Result
 
 | Dataset | mAP  | Rank-1 | model | 
