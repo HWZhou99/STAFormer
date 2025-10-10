@@ -1,8 +1,8 @@
-# Spatio-Temporal Aggregation Transformer for Video-based Person Re-Identification
+//# Spatio-Temporal Aggregation Transformer for Video-based Person Re-Identification
 
-## Abstract
+//## Abstract
 
-Temporal cues are crucial for video-based person re-identification (ReID). However, it remains a challenging problem to effectively model the temporal cues so that a representative and discriminative video-level feature can be extracted for person ReID. To address this problem, we propose Spatio-Temporal Aggregation Transformer (STAFormer) for the video-based person ReID. The proposed STAFormer is mainly composed of spatial and temporal aggregation modules, which establishes a unified framework for effective frame-level feature extraction as well as temporal cues aggregation with the attention mechanism. Specifically, the spatial aggregation module first extracts the frame-level features by adaptively fusing the local and global features with the attention mechanism. Similarly, the temporal aggregation module also leverages the attention mechanism to aggregate these frame-level features into the video-level representations. Extensive experiments on four widely used benchmark datasets demonstrate that the proposed STAFormer is effective for video-based person ReID with the ability to jointly extract frame-level features and aggregate temporal cues.
+//Temporal cues are crucial for video-based person re-identification (ReID). However, it remains a challenging problem to effectively model the temporal cues so that a representative and discriminative video-level feature can be extracted for person ReID. To address //this problem, we propose Spatio-Temporal Aggregation Transformer (STAFormer) for the video-based person ReID. The proposed STAFormer is mainly composed of spatial and temporal aggregation modules, which establishes a unified framework for effective frame-level feature //extraction as well as temporal cues aggregation with the attention mechanism. Specifically, the spatial aggregation module first extracts the frame-level features by adaptively fusing the local and global features with the attention mechanism. Similarly, the temporal //aggregation module also leverages the attention mechanism to aggregate these frame-level features into the video-level representations. Extensive experiments on four widely used benchmark datasets demonstrate that the proposed STAFormer is effective for video-based //person ReID with the ability to jointly extract frame-level features and aggregate temporal cues.
 
 <p align="center">
   <img src ="https://github.com/HWZhou99/STAFormer/blob/main/STAFormer.png" alt="STAFormer",width="300">
@@ -81,3 +81,4 @@ Visualization of the retrieval results on the MARS dataset. Each example shows t
 
 ## Acknowledgments
 Thanks for [SINet](https://github.com/baist/SINet) of Shutao Bai providing video reid code base.
+
