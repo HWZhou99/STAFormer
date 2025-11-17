@@ -1,3 +1,7 @@
+<p align="center">
+  # STAFormer: Towards Unified Spatial and Temporal Aggregation Learning for Video Person Re-Identification
+</p>
+
 ## Abstract
 Spatial and temporal cues are crucial for video-based person re-identification (ReID). However, jointly modeling spatial and temporal information to extract representative and discriminative video-level features remains a challenging task. To address this limitation, we propose STAFormer: a transformer-based framework that establishes a unified architecture for joint frame-level feature extraction and temporal cue aggregation through spatial and temporal aggregation modules. Specifically, the spatial aggregation module extracts frame-level representations by adaptively integrating local and global features through spatial attention, while the temporal aggregation module aggregates these frame-level features into discriminative video-level representations through temporal attention. Extensive experiments on four benchmark datasets demonstrate that STAFormer effectively combines spatial feature learning with temporal cue modeling, achieving state-of-the-art performance in video-based person ReID.
 
@@ -78,6 +82,7 @@ Visualization of the retrieval results on the MARS dataset. Each example shows t
 
 ## Acknowledgments
 Thanks for [SINet](https://github.com/baist/SINet) of Shutao Bai providing video reid code base.
+
 
 
 
